@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.search-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(212, 190, 163);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.guest-picker, .date-picker {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    margin: 10px;
+}
+
+.date-picker-giris, .date-picker-cıkıs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input[type="date"], select {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Kişiler */
+
+.guest-picker p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.room {
+    margin-bottom: 10px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.counter span{
+    width: 50%;
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.counter input {
+    width: 100px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+button.minus, button.plus {
+    width: 50px;
+    height: 30px;
+    border: none;
+    background-color: #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.fiyatbutton-cont{
+ width: 100px;
+}
+#fiyat-ver-button{
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* REZERVE CONT */
+
+.Rezerve-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(212, 190, 163);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+
+}
+
+.rezerve-picker{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 10px;
+}
+.information-div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.information-div label{
+    width: 50%;
+}
+
+#rezerve-button{
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.information-div p {
+    width: 50%;
+    font-size: 20px;
+    color: #555;
+}

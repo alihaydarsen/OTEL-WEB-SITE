@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REZERVASYON-MARBÜL HOTEL</title>
+    <link rel="icon" href="FOTOĞRAFLAR/OTEL LOGO_preview_rev_1.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Oswald:wght@200..700&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <script>
+        function openPaymentWindow(price) {
+            let newWindow = window.open("", "_blank", "width=400,height=300");
+            newWindow.document.write("<h1>Ödeme Bilgileri</h1>");
+            newWindow.document.write("<p>Gecelik fiyat: " + price + "$</p>");
+        }
+    </script>
+</head>
+<body>
+    <!-- HTML içeriği aynı kalacak -->
+
+    <!-- Örnek buton -->
+    <button style="height: 50px; width: 240px; font-family: Oswald; border-radius: 30px; color: white; background-color: gray;" 
+            onclick="openPaymentWindow(120)">REZERVE ET</button>
+
+    <!-- Her buton için fiyatı uygun şekilde ekle -->
+    <!-- Örneğin, 150$'lık bir oda için -->
+    <button style="height: 50px; width: 240px; font-family: Oswald; border-radius: 30px; color: white; background-color: gray;" 
+            onclick="openPaymentWindow(150)">REZERVE ET</button>
+
+    <!-- Diğer butonlar için de aynı işlemi uygun fiyatlarla tekrarla -->
+</body>
+</html>
